@@ -1,0 +1,16 @@
+node_modules/
+
+# Secrets and personal machine state
+.env
+.env.local
+.claude/settings.local.json
+
+# Saved reads and browser artefacts. A snapshot of a real application carries its
+# internal URLs and element names, so it must never land in git by accident.
+*.snapshot.json
+snapshots/
+playwright-report/
+test-results/
+
+*.log
+.DS_Store

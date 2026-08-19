@@ -1,0 +1,66 @@
+{
+    "url": "https://www.saucedemo.com/",
+    "readAt": "2026-08-14T19:00:00.000Z",
+    "elements": [
+        {
+            "tag": "input",
+            "role": "textbox",
+            "name": "Username",
+            "testId": "username",
+            "label": "Username",
+            "text": null,
+            "id": "user-name",
+            "cssPath": "#user-name"
+        },
+        {
+            "tag": "input",
+            "role": "textbox",
+            "name": "Password",
+            "testId": null,
+            "label": "Password",
+            "text": null,
+            "id": "password",
+            "cssPath": "#password"
+        },
+        {
+            "tag": "button",
+            "role": "button",
+            "name": "Login",
+            "testId": null,
+            "label": null,
+            "text": "Login",
+            "id": "login-button",
+            "cssPath": "#login-button"
+        },
+        {
+            "tag": "a",
+            "role": null,
+            "name": null,
+            "testId": null,
+            "label": null,
+            "text": "Forgot password?",
+            "id": null,
+            "cssPath": "div.login_wrapper > div:nth-child(3) > a"
+        },
+        {
+            "tag": "button",
+            "role": null,
+            "name": null,
+            "testId": null,
+            "label": null,
+            "text": null,
+            "id": "mui-4821",
+            "cssPath": "div.MuiBox-root > div:nth-child(2) > button"
+        },
+        {
+            "tag": "div",
+            "role": null,
+            "name": null,
+            "testId": null,
+            "label": null,
+            "text": null,
+            "id": null,
+            "cssPath": "#root > div > div:nth-child(4) > div > div"
+        }
+    ]
+}
