@@ -1,0 +1,36 @@
+{
+  "name": "testability-audit",
+  "version": "0.1.0",
+  "description": "Audits a web page's testability: ranks every interactive element by locator stability and reports what automation can't reach.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "test-automation",
+    "qa",
+    "testability",
+    "locators",
+    "playwright",
+    "accessibility-tree"
+  ],
+  "bin": {
+    "testability-audit": "src/cli.ts"
+  },
+  "engines": {
+    "node": ">=23"
+  },
+  "scripts": {
+    "audit": "node src/cli.ts",
+    "demo": "node src/cli.ts fixtures/example-snapshot.json",
+    "test": "node --test tests/*.spec.ts",
+    "test:browser": "node --test tests/browser/*.spec.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
